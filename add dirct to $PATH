@@ -1,0 +1,8 @@
+Adding a Directory to your $PATH
+There are situations where you may want to add other directories to the $PATH variable. For example, some programs may be installed in different locations, or you may want to have a dedicated directory for your personal scrips, but be able to run them without specifying the absolute path to the executable files. To do this, you simply need to add the directory to your $PATH.
+
+Let’s say you have a directory called bin located in your Home directory in which you keep your shell scripts. To add the directory to your $PATH type in:
+
+export PATH="$HOME/bin:$PATH"
+Copy
+The export command will export the modified variable to the shell child process environments.
