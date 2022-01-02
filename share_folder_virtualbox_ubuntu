@@ -1,0 +1,6 @@
+As of now (version 6.0.10 of VirtualBox) there are make permanent and auto-mount options for shared folder, also mount point (At) in GUI of virtualbox. For me the following worked:
+
+On guest Ubuntu: sudo apt-get install virtualbox-guest-utils
+Add shared folder in GUI of VirtualBox.
+Restart guest OS
+Folder on mount point specified in GUI was created automatically and ls showed files located on host Windows PC.
